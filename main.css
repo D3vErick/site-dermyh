@@ -1,0 +1,71 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar{
+    background-color: #448b44;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #0fc90f;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #f5d9fd;
+}
+
+#sobre, #produtos{
+    background-color: #dafcda;
+}
+
+.text-colored{
+    color: #0fc90f;
+}
+
+.nav-produto .nav-link.active,
+#contato button,
+#produto button{
+    background-color: #0fc90f;
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #0fc90f;
+}
+
+.social-link li{
+    list-style: none;
+    display: inline;
+}
+
+.social-link li a{
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: #0fc90f;
+}
+
+#contato textarea{
+    resize: none;
+    height: 150px;
+}
+
+footer{
+    background-color: #0fc90f;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px){
+    .carousel-item img{
+        height: 400px;
+    }
+}

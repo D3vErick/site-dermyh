@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./images/icon/Logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <title>Dermyh - 2024</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand">Dermyh - <span class="text-colored">Sua pele, sua essência</span></h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex"> 
+                    <li class="nav-item fw-bold"> 
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Dermyh</a> 
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#campanhas" class="nav-link">
+                            <i class="bi bi-calendar-heart"></i>
+                            Campanhas
+                        </a> 
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-basket2-fill"></i>
+                            Produtos
+                        </a> 
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a> 
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carrossel">
+                <div class="carousel-inner">
+                    <div class="carousel-item  active" data-bs-interval="3000">
+                        <img src="images/slides/mulher1.jpg" alt="foto de uma moça com as mãos sobre o rosto.">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <img src="images/slides/mulher2.jpg" alt="foto de uma moça com a mão sobre o peito.">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <img src="images/slides/mulher3.jpg" alt="foto de uma moça em preto e branco.">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrossel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carrossel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carrossel" data-bs-slide-to="1" class=""></button>
+                    <button type="button" data-bs-target="#carrossel" data-bs-slide-to="2" class=""></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="/images/slides/cachoeiras.jpg" class="d-block w-100 rounded" alt="Imagem da inspiração da Dermyh">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2>Conheça a <span class="text-colored">Dermyh</span> - </h2>
+                            <p>
+                                Marca brasileira de cuidados para a pele. Somos recentes no mercado estando em funcionamento desde 2023, mas é mais que recomendado por 9 em cada 10 dermatologistas ao redor do mundo!
+                            </p>
+                            <h3>Sobre o  nosso <span class="text-colored">Lema</span> - </h3>
+                            <p>
+                                "Sua pele, sua essência." é a nossa filosofia, a pele é o espelho da sua saúde, por isso, uma pele bem cuidada significa
+                                uma boa saúde, uma boa auto-estima e um bom bem estar. A <span class="text-colored">Dermyh</span> mantém o compromisso de cuidar disso tudo para você com
+                                nossos tratamentos específicos ou livres para todos os públicos. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="campanhas" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class=" text-center">Nossas <span class="text-colored">Campanhas</span> em prol da humanidade - </h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="images/campanhas/dia-dos-namorados.jpg" alt="Foto de um coração encima de um par de mãos.">
+                        <h3>
+                            <i class="bi bi-calendar-heart-fill text-colored"></i>
+                            Momento especial com a <span class="text-colored">pessoa amada</span>!!!
+                        </h3>
+                        <p>
+                            Nessa campanha dedicada a presentear aquela pessoa especial que dividimos a vida, separamos algumas
+                            atividades bacanas para aproximar e fortalecer os laços!
+                        </p>
+                        <a href="#" class="btn btn-dark botao">Saiba mais ></a>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="images/campanhas/doação.jpg" alt="Doações para ONGs">
+                        <h3>
+                            <i class="bi bi-coin text-colored"></i>
+                            ONGs para <span class="text-colored">moradores de rua</span>
+                        </h3>
+                        <p>
+                            Nessa campanha, buscamos ajudar ONGs dedicadas a conceder um novo proposito pora aquelas pessoas
+                            que vemos todos os dias em situação de necessidade, vamos ser humanos com outros seres humanos.
+                        </p>
+                        <a href="#" class="btn btn-dark botao">Saiba mais ></a>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="images/campanhas/natal.jpg" alt="Duas meninas trocando presentes de natal">
+                        <h3>
+                            <i class="bi bi-gift-fill text-colored"></i>
+                            Época <span class="text-colored">natalina</span>!
+                        </h3>
+                        <p>
+                            Nessa campanha, buscamos compartilhar a mágia do natal com muitas risadas, elogios,
+                            conversas descontraídas e muito mais. 
+                        </p>
+                        <a href="#" class="btn btn-dark botao">Saiba mais ></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mb-5 mt-5">
+                        <i class="bi bi-emoji-heart-eyes"></i>
+                        Adquira nossa linha de <span class="text-colored">produtos</span>:
+                    </h2>
+                    <div class="row">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-colum nav-produto">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#daily-use" class="nav-link text-colored fw-bold text-start active">Uso diário ></button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#noturno" class="nav-link text-colored fw-bold text-start">Uso noturno</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#quinzenal" class="nav-link text-colored fw-bold text-start">Uso quinzenal</button>
+                            </nav>
+                        </aside>
+                        <div class="col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="daily-use">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="images/produtos/spray.png" class="d-block w-100" alt="Foto de um spray">
+                                            <h5 class="text-colored fw-bold mt-2">Dermyh Spray Ácido 5%</h5>
+                                            <p>Contém 90ml, 5% bla bla, 5% blu blu, ótimo para espeinhas, cravos e afins.</p>
+                                            <button type="button" class="btn btn-dark botao">Adicionar ao Carrinho +</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="images/produtos/spray.png" class="d-block w-100" alt="Foto de um spray">
+                                            <h5 class="text-colored fw-bold mt-2">Dermyh Spray Ácido 5%</h5>
+                                            <p>Contém 90ml, 5% bla bla, 5% blu blu, ótimo para espeinhas, cravos e afins.</p>
+                                            <button type="button" class="btn btn-dark botao">Adicionar ao Carrinho +</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="images/produtos/spray.png" class="d-block w-100" alt="Foto de um spray">
+                                            <h5 class="text-colored fw-bold mt-2">Dermyh Spray Ácido 5%</h5>
+                                            <p>Contém 90ml, 5% bla bla, 5% blu blu, ótimo para espeinhas, cravos e afins.</p>
+                                            <button type="button" class="btn btn-dark botao">Adicionar ao Carrinho +</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane active" id="noturno">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="images/produtos/creme.png" class="d-block w-100" alt="Foto de um pote de creme.">
+                                            <h5 class="text-colored fw-bold mt-2">Dermyh creme Sonífero 5%</h5>
+                                            <p>Contém 250g. Faz você dormir que nem uma pedra, você dorme tão bem que nem acorda no dia seguinte.</p>
+                                            <button type="button" class="btn btn-dark botao">Adicionar ao Carrinho +</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="images/produtos/creme.png" class="d-block w-100" alt="Foto de um pote de creme.">
+                                            <h5 class="text-colored fw-bold mt-2">Dermyh creme Sonífero 5%</h5>
+                                            <p>Contém 250g. Faz você dormir que nem uma pedra, você dorme tão bem que nem acorda no dia seguinte.</p>
+                                            <button type="button" class="btn btn-dark botao">Adicionar ao Carrinho +</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="images/produtos/creme.png" class="d-block w-100" alt="Foto de um pote de creme.">
+                                            <h5 class="text-colored fw-bold mt-2">Dermyh creme Sonífero 5%</h5>
+                                            <p>Contém 250g. Faz você dormir que nem uma pedra, você dorme tão bem que nem acorda no dia seguinte.</p>
+                                            <button type="button" class="btn btn-dark botao">Adicionar ao Carrinho +</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane active" id="quinzenal">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="images/produtos/tubo.png" class="d-block w-100" alt="Foto de um tubo de creme.">
+                                            <h5 class="text-colored fw-bold mt-2">Dermyh creme Insano 1304%</h5>
+                                            <p>Contém 100g. Passar uma vez faz com que você fique completamente insano por um tempo, é bom para aliviar o estresse.</p>
+                                            <button type="button" class="btn btn-dark botao">Adicionar ao Carrinho +</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="images/produtos/tubo.png" class="d-block w-100" alt="Foto de um tubo de creme.">
+                                            <h5 class="text-colored fw-bold mt-2">Dermyh creme Insano 1304%</h5>
+                                            <p>Contém 100g. Passar uma vez faz com que você fique completamente insano por um tempo, é bom para aliviar o estresse.</p>
+                                            <button type="button" class="btn btn-dark botao">Adicionar ao Carrinho +</button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="images/produtos/tubo.png" class="d-block w-100" alt="Foto de um tubo de creme.">
+                                            <h5 class="text-colored fw-bold mt-2">Dermyh creme Insano 1304%</h5>
+                                            <p>Contém 100g. Passar uma vez faz com que você fique completamente insano por um tempo, o engraçado é que você ta vendo 3 deles agora, mas tem apenas 1.</p>
+                                            <button type="button" class="btn btn-dark botao">Adicionar ao Carrinho +</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contato" class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="text-center">Nossa <span class="text-colored">Ouvidoria</span> - </h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold text-colored" for="nome">Insira seu nome: </label>
+                                    <input class="form-control" type="text" id="nome" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold text-colored" for="email">Insira seu Email: </label>
+                                    <input class="form-control" type="email" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold text-colored" for="tele">Insira seu telefone (Opcional): </label>
+                                    <input class="form-control" type="tel" id="tele">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold text-colored" for="mensagem">Insira sua mensagem: </label>
+                                    <textarea class="form-control" id="mensagem" required></textarea>
+                                </div>
+                                <button type="submit" class="btn fw-bold">Enviar ^</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <p class="fs-5">Quer mandar uma mensagem de feeback para a gente? Só preencher o formulário,
+                                    garanto que uma pessoa 100% real vai tirar um tempinho para ler :)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="d-flex p-3 fs-4">
+            <p>Este site foi criado apenas para fins de estudo, nada acima é verídico ou autêntico. GitHub</p>
+            <a href="https://github.com/D3vErick">
+                <i class="bi bi-github p-3"></i>
+            </a>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
